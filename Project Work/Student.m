@@ -33,5 +33,21 @@ classdef Student
         function obj = updateGPA(obj, newGPA)
             obj.GPA = newGPA; %Sets the GPA to a new value
         end
+
+        function obj = updateID(obj, newGPA)
+            obj.ID = newGPA; %Sets the ID to a new value
+        end
+
+        function obj = updateName(obj, newGPA)
+            obj.Name = newGPA; %Sets the Name to a new value
+        end
+
+        function obj = updateAge(obj, newGPA)
+            obj.Age = newGPA; %Sets the Age to a new value
+        end
+
+        function obj = updateMajor(obj, newGPA)
+            obj.Major = newGPA; %Sets the Major to a new value
+        end
     end
 end

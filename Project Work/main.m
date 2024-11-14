@@ -55,3 +55,6 @@ averageGPAByMajor(loadedDB.Students);
 %Generates the age distribution plot
 subplot(3, 1, 3);
 ageDistribution(loadedDB.Students);
+
+%Saves the plots as a .png file titled Visualizations.png
+saveas(gcf, 'Visualizations.png');
